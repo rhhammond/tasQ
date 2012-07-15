@@ -1,4 +1,4 @@
-iou
+tasQ
 ===
 
-Uses Twitter Bootstrap, Backbone, Node.js, Redis and other new frameworks to implement an IOU application
+A task-entry application based on the ideas behind the book 'Getting Things Done'.
