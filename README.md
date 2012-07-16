@@ -1,4 +1,4 @@
 tasQ
 ===
 
-A task-entry application based on the ideas behind the book 'Getting Things Done'.
+A simple and social task list to help you and others get things done.
