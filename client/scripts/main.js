@@ -10,15 +10,26 @@ require.config({
 		
 		bootstrap: '../lib/bootstrap/js/bootstrap',
 		dropdown: '../lib/bootstrap/js/bootstrap-dropdown',
-		//underscore: '../lib/underscore-amd',
-		//backbone: '../lib/backbone-amd'
+		underscore: '../lib/underscore',
+		backbone: '../lib/backbone'
 	},
 
 	// shim section specifies any dependencies that must be loaded before these modules can be loaded
 	// http://requirejs.org/docs/api.html#config-shim
 	shim: {
+		
 		bootstrap: ['jquery'],
-		dropdown: ['bootstrap']
+		
+		dropdown: ['bootstrap'],
+		
+		backbone: { 
+			deps: ['underscore', 'jquery'],
+			exports: 'Backbone'
+		},
+
+		underscore: {
+			exports: "_"
+		}
 	}
 
 });
@@ -27,11 +38,13 @@ require.config({
 define([
 	'jquery',
 	'bootstrap',
-	'dropdown'
+	'dropdown',
+	'views/login'
 
-], function($) {
+], function($, bootstrap, dropdown, LoginView) {
+	"use strict";
 
-	//TODO: bootstrap the application here
-	$("#content").show();
+	var view = new LoginView();
+	view.render();
 	$('.dropdown-toggle').dropdown()
 });
