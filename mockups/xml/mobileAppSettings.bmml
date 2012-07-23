@@ -1,0 +1,75 @@
+<mockup version="1.0" skin="sketch" measuredW="603" measuredH="510" mockupW="603" mockupH="510">
+  <controls>
+    <control controlID="70" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="71" controlTypeID="com.balsamiq.mockups::Canvas" x="29" y="100" w="223" h="45" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>0</borderColor>
+        <borderStyle>square</borderStyle>
+        <color>545684</color>
+      </controlProperties>
+    </control>
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::Label" x="111" y="111" w="78" h="27" measuredW="70" measuredH="26" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <size>18</size>
+        <text>Settings</text>
+      </controlProperties>
+    </control>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::CheckBox" x="37" y="158" w="-1" h="-1" measuredW="104" measuredH="22" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>selected</state>
+        <text>Stay%20logged%20in</text>
+      </controlProperties>
+    </control>
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::Button" x="82" y="364" w="102" h="40" measuredW="63" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>545684</color>
+        <text>Delete</text>
+      </controlProperties>
+    </control>
+    <control controlID="75" controlTypeID="com.balsamiq.mockups::PointyButton" x="36" y="109" w="66" h="-1" measuredW="49" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>tasQ</text>
+      </controlProperties>
+    </control>
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::TextInput" x="37" y="230" w="200" h="-1" measuredW="134" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>http%3A//www.tasQ.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="77" controlTypeID="com.balsamiq.mockups::Label" x="37" y="206" w="-1" h="-1" measuredW="117" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>TasQ%20Data%20Server%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::Label" x="37" y="308" w="200" h="70" measuredW="352" measuredH="21" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>TasQ%20stores%20data%20locally%20to%20help%20performance.%20%20X%20kB%20is%20in%20use.</text>
+      </controlProperties>
+    </control>
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::CallOut" x="290" y="225" w="-1" h="-1" measuredW="313" measuredH="37" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Data%20server%20is%20the%20location%20of%20our%20server-side%20app</text>
+      </controlProperties>
+    </control>
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::CallOut" x="290" y="138" w="246" h="71" measuredW="638" measuredH="40" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>When%20checked%2C%20%27stay%20logged%20in%27%20will%20keep%20keep%20the%20user%20logged%20in%20to%20the%20app%20even%20after%20closing%20the%20browser</text>
+      </controlProperties>
+    </control>
+    <control controlID="82" controlTypeID="com.balsamiq.mockups::CallOut" x="290" y="288" w="288" h="90" measuredW="887" measuredH="37" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>We%20can%20cache%20data%20in%20local%20storage%20to%20help%20speed%20up%20rendering.%20%20The%20%27delete%27%20button%20will%20give%20the%20user%20the%20option%20to%20clear%20whatever%20space%20we%20are%20using.</text>
+      </controlProperties>
+    </control>
+    <control controlID="83" controlTypeID="com.balsamiq.mockups::HRule" x="37" y="197" w="200" h="-1" measuredW="100" measuredH="5" zOrder="12" locked="false" isInGroup="-1"/>
+    <control controlID="84" controlTypeID="com.balsamiq.mockups::HRule" x="37" y="267" w="200" h="-1" measuredW="100" measuredH="5" zOrder="13" locked="false" isInGroup="-1"/>
+    <control controlID="85" controlTypeID="com.balsamiq.mockups::Label" x="37" y="282" w="-1" h="-1" measuredW="116" measuredH="21" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>Local%20Data%20Usage%3A</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
