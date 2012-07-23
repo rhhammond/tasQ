@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="sketch" measuredW="488" measuredH="641" mockupW="488" mockupH="641">
+<mockup version="1.0" skin="sketch" measuredW="567" measuredH="641" mockupW="567" mockupH="641">
   <controls>
     <control controlID="62" controlTypeID="__group__" x="0" y="0" w="488" h="641" measuredW="488" measuredH="641" zOrder="0" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
@@ -63,6 +63,71 @@
           </controlProperties>
         </control>
       </groupChildrenDescriptors>
+    </control>
+    <control controlID="64" controlTypeID="__group__" x="0" y="0" w="488" h="641" measuredW="488" measuredH="641" zOrder="1" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="488" h="641" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="64"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::TextInput" x="128" y="235" w="232" h="-1" measuredW="49" measuredH="27" zOrder="1" locked="false" isInGroup="64">
+          <controlProperties>
+            <text>Jimbo</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::TextInput" x="128" y="302" w="232" h="-1" measuredW="115" measuredH="27" zOrder="2" locked="false" isInGroup="64">
+          <controlProperties>
+            <text>icanhaspassword%3F</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="65" controlTypeID="__group__" x="101" y="108" w="466" h="86" measuredW="466" measuredH="86" zOrder="2" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="18" w="278" h="35" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="65">
+          <controlProperties>
+            <color>545684</color>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="246" y="19" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="1" locked="false" isInGroup="65">
+          <controlProperties>
+            <color>16767334</color>
+            <icon>GearIcon%7Cmedium</icon>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="14" y="23" w="64" h="26" measuredW="58" measuredH="33" zOrder="2" locked="false" isInGroup="65">
+          <controlProperties>
+            <color>16777215</color>
+            <size>24</size>
+            <text>tasQ</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::CallOut" x="322" y="0" w="144" h="86" measuredW="408" measuredH="39" zOrder="3" locked="false" isInGroup="65">
+          <controlProperties>
+            <text>1%29%20Tapping%20the%20gear%20takes%20the%20user%20to%20the%20application%20settings%20page</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::Label" x="128" y="214" w="-1" h="-1" measuredW="46" measuredH="24" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>User%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::Label" x="130" y="277" w="-1" h="-1" measuredW="79" measuredH="24" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Password%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::Link" x="128" y="381" w="-1" h="-1" measuredW="106" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Create%20Account...</text>
+      </controlProperties>
+    </control>
+    <control controlID="69" controlTypeID="com.balsamiq.mockups::Button" x="264" y="368" w="92" h="46" measuredW="54" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>545684</color>
+        <text>Login</text>
+      </controlProperties>
     </control>
   </controls>
 </mockup>
