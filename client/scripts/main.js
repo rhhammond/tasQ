@@ -5,8 +5,8 @@ require.config({
 	
 	paths: {
 
-		// CDN hosted jQuery
-		jquery: 'http://code.jquery.com/jquery-1.7.2.min',
+		// minified jQuery 1.7.2
+		jquery: '../lib/jquery-1.7.2.min',
 		
 		// require.js text plugin will read a file into a module parameter 
 		// format: text!<file path relative to baseUrl>
@@ -17,6 +17,9 @@ require.config({
 		
 		// twitter bootstrap dropdown plugin
 		dropdown: '../lib/bootstrap/js/bootstrap-dropdown',
+
+		//twitter bootstrap modal plugin
+		modal: '../lib/bootstrap/js/bootstrap-modal',
 
 		// underscore.js utilitiy library
 		underscore: '../lib/underscore',
@@ -32,10 +35,21 @@ require.config({
 	// http://requirejs.org/docs/api.html#config-shim
 	shim: {
 		
-		bootstrap: ['jquery'],
+		bootstrap: {
+			deps: ['jquery'],
+			exports: 'Bootstrap'
+		},
 		
-		dropdown: ['bootstrap'],
-		
+		dropdown: {
+			deps: ['bootstrap'],
+			exports: 'BootstrapDropdown'
+		},
+
+		modal: {
+			deps: ['bootstrap'],
+			exports: 'BootstrapModal'
+		},
+
 		backbone: { 
 			deps: ['underscore', 'jquery'],
 			exports: 'Backbone'
@@ -54,10 +68,11 @@ define([
 	'jquery',
 	'bootstrap',
 	'dropdown',
+	'modal',
 	'backbone',
 	'views/login'
 
-], function($, bootstrap, dropdown, backbone, LoginView) {
+], function($, bootstrap, dropdown, modal, backbone, LoginView) {
 	"use strict";
 
 	var view = new LoginView();
