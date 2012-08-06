@@ -6,29 +6,29 @@ require.config({
 	paths: {
 
 		// minified jQuery 1.7.2
-		jquery: '../lib/jquery-1.7.2.min',
+		jquery: 'lib/jquery-1.7.2.min',
 		
 		// require.js text plugin will read a file into a module parameter 
 		// format: text!<file path relative to baseUrl>
-		text: '../lib/text',
+		text: 'lib/text',
 
 		// twitter bootstrap javascript
-		bootstrap: '../lib/bootstrap/js/bootstrap',
+		bootstrap: 'lib/bootstrap/js/bootstrap',
 		
 		// twitter bootstrap dropdown plugin
-		dropdown: '../lib/bootstrap/js/bootstrap-dropdown',
+		dropdown: 'lib/bootstrap/js/bootstrap-dropdown',
 
 		//twitter bootstrap modal plugin
-		modal: '../lib/bootstrap/js/bootstrap-modal',
+		modal: 'lib/bootstrap/js/bootstrap-modal',
 
 		// underscore.js utilitiy library
-		underscore: '../lib/underscore',
+		underscore: 'lib/underscore',
 
 		// backbone.js client side MVC library
-		backbone: '../lib/backbone',
+		backbone: 'lib/backbone',
 
 		// mustache.js template engine
-		mustache: '../lib/mustache'
+		mustache: 'lib/mustache'
 	},
 
 	// shim section specifies any dependencies that must be loaded before these modules can be loaded
