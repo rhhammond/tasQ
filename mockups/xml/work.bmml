@@ -1,56 +1,115 @@
 <mockup version="1.0" skin="sketch" measuredW="282" measuredH="510" mockupW="282" mockupH="510">
   <controls>
-    <control controlID="64" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bgPattern>topOnly</bgPattern>
-      </controlProperties>
-    </control>
-    <control controlID="65" controlTypeID="com.balsamiq.mockups::ButtonBar" x="27" y="375" w="221" h="51" measuredW="87" measuredH="12" zOrder="1" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>%2C%2C</text>
-      </controlProperties>
-    </control>
-    <control controlID="66" controlTypeID="com.balsamiq.mockups::Icon" x="200" y="388" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="2" locked="false" isInGroup="-1">
-      <controlProperties>
-        <icon>HLinesIcon%7Csmall</icon>
-      </controlProperties>
-    </control>
-    <control controlID="67" controlTypeID="com.balsamiq.mockups::Icon" x="59" y="388" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="3" locked="false" isInGroup="-1">
-      <controlProperties>
-        <icon>RightFillTriangleIcon%7Csmall</icon>
-      </controlProperties>
-    </control>
-    <control controlID="68" controlTypeID="com.balsamiq.mockups::Icon" x="129" y="388" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="4" locked="false" isInGroup="-1">
-      <controlProperties>
-        <icon>FilterIcon%7Csmall</icon>
-      </controlProperties>
-    </control>
-    <control controlID="69" controlTypeID="com.balsamiq.mockups::Label" x="44" y="152" w="195" h="79" measuredW="446" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Take%20out%20the%20trash%2C%20blah%20blah%20blah%20%20yada%20yada%20yada%20Do%20the%20dishes.%20Fold%20laundry</text>
-      </controlProperties>
-    </control>
-    <control controlID="74" controlTypeID="com.balsamiq.mockups::Button" x="100" y="314" w="58" h="39" measuredW="58" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Defer</text>
-      </controlProperties>
-    </control>
-    <control controlID="75" controlTypeID="com.balsamiq.mockups::Button" x="32" y="314" w="54" h="39" measuredW="54" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Done</text>
-      </controlProperties>
-    </control>
-    <control controlID="77" controlTypeID="com.balsamiq.mockups::Button" x="168" y="314" w="77" h="39" measuredW="77" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Delegate</text>
-      </controlProperties>
-    </control>
-    <control controlID="78" controlTypeID="com.balsamiq.mockups::Label" x="85" y="106" w="125" h="24" measuredW="123" measuredH="26" zOrder="9" locked="false" isInGroup="-1">
-      <controlProperties>
-        <color>16777215</color>
-        <size>18</size>
-        <text>Do%20Housework</text>
-      </controlProperties>
+    <control controlID="99" controlTypeID="__group__" x="0" y="0" w="282" h="510" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="85" y="106" w="125" h="24" measuredW="123" measuredH="26" zOrder="0" locked="false" isInGroup="99">
+          <controlProperties>
+            <color>16777215</color>
+            <size>18</size>
+            <text>Do%20Housework</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="1" locked="false" isInGroup="99">
+          <controlProperties>
+            <bgPattern>topOnly</bgPattern>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="__group__" x="40" y="141" w="203" h="61" measuredW="203" measuredH="61" zOrder="2" locked="false" isInGroup="99">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="56" w="203" h="-1" measuredW="100" measuredH="5" zOrder="0" locked="false" isInGroup="2"/>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="6" y="16" w="-1" h="-1" measuredW="30" measuredH="21" zOrder="1" locked="false" isInGroup="2">
+              <controlProperties>
+                <text>Do%20%3A</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="51" y="0" w="152" h="53" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="2">
+              <controlProperties>
+                <text>Sort%20the%20laundry.%0AYou%20don%27t%20have%20any%20clean%20clothes.</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="3" controlTypeID="__group__" x="40" y="202" w="203" h="61" measuredW="203" measuredH="61" zOrder="3" locked="false" isInGroup="99">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="56" w="203" h="-1" measuredW="100" measuredH="5" zOrder="0" locked="false" isInGroup="3"/>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="6" y="16" w="-1" h="-1" measuredW="30" measuredH="21" zOrder="1" locked="false" isInGroup="3">
+              <controlProperties>
+                <text>Do%20%3A</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="51" y="0" w="152" h="53" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="3">
+              <controlProperties>
+                <text>Sort%20the%20laundry.%0AYou%20don%27t%20have%20any%20clean%20clothes.</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="4" controlTypeID="__group__" x="40" y="261" w="203" h="61" measuredW="203" measuredH="61" zOrder="4" locked="false" isInGroup="99">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="56" w="203" h="-1" measuredW="100" measuredH="5" zOrder="0" locked="false" isInGroup="4"/>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="6" y="16" w="-1" h="-1" measuredW="30" measuredH="21" zOrder="1" locked="false" isInGroup="4">
+              <controlProperties>
+                <text>Do%20%3A</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="51" y="0" w="152" h="53" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="4">
+              <controlProperties>
+                <text>Sort%20the%20laundry.%0AYou%20don%27t%20have%20any%20clean%20clothes.</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="5" controlTypeID="__group__" x="46" y="322" w="197" h="53" measuredW="197" measuredH="53" zOrder="5" locked="false" isInGroup="99">
+          <groupChildrenDescriptors>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="16" w="-1" h="-1" measuredW="30" measuredH="21" zOrder="0" locked="false" isInGroup="5">
+              <controlProperties>
+                <text>Do%20%3A</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="45" y="0" w="152" h="53" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="5">
+              <controlProperties>
+                <text>Sort%20the%20laundry.%0AYou%20don%27t%20have%20any%20clean%20clothes.</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Button" x="210" y="106" w="-1" h="-1" measuredW="33" measuredH="27" zOrder="6" locked="false" isInGroup="99">
+          <controlProperties>
+            <text>+</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::SubTitle" x="102" y="103" w="-1" h="-1" measuredW="79" measuredH="33" zOrder="7" locked="false" isInGroup="99">
+          <controlProperties>
+            <color>16777215</color>
+            <text>Queue</text>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="__group__" x="27" y="377" w="221" h="51" measuredW="221" measuredH="51" zOrder="8" locked="false" isInGroup="99">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::ButtonBar" x="0" y="0" w="221" h="51" measuredW="87" measuredH="12" zOrder="0" locked="false" isInGroup="8">
+              <controlProperties>
+                <selectedIndex>2</selectedIndex>
+                <text>%2C%2C</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="173" y="13" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="1" locked="false" isInGroup="8">
+              <controlProperties>
+                <icon>HLinesIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Icon" x="32" y="13" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="2" locked="false" isInGroup="8">
+              <controlProperties>
+                <icon>RightFillTriangleIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="102" y="13" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="3" locked="false" isInGroup="8">
+              <controlProperties>
+                <icon>FilterIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
     </control>
   </controls>
 </mockup>
