@@ -7,12 +7,9 @@ define([
 
 		var LoginView = Backbone.View.extend({
 
-			//render plugs the JSON data (view) into the parsed mustache html (template)
-			render: function() {
-				var view = {
-					date: new Date().toLocaleDateString()
-				};
-				var html = Mustache.render(template, view); 
+			//render plugs the JSON data (view) into the parsed mustache HTML (template)
+			render: function() {			
+				var html = Mustache.render(template); 
 				this.$el.html(html);
 
 				$("#content").append(this.$el);
