@@ -1,0 +1,69 @@
+/*	Modal Login */
+
+#login-modal {
+	display: block;
+	text-align: center;
+	width: 300px;
+	padding: 0 40px;
+	background: white;
+	border: 5px solid rgba(0, 0, 0, 0.2);
+	margin-left: -190px;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-bottom: 40px;
+	box-shadow: 0 1px 0 white inset;
+	margin-top: -306px;
+}
+
+#login-modal h1 {
+	margin: 0 -40px;
+	background: #EEE;
+	border-bottom: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+	font-size: 16px;
+	padding: 5px 40px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#login-modal .modal-header {
+	padding: 0px;
+	border-bottom: none;
+}
+
+#login-modal .modal-footer {
+	background: none;
+	border: none;
+	padding: 0px 15px 15px;
+	text-align: center;
+}
+
+#login-modal .close {
+	border-left: 1px solid #CCC;
+	padding: 12px 18px 16px 18px;
+}
+#login-modal fieldset {
+	border-bottom: 1px solid #DDD;
+	padding: 0px 40px 30px;
+	margin: 0px -40px 20px;
+}
+
+#login-modal fieldset input[type="text"],
+#login-modal fieldset input[type="password"],
+#login-modal fieldset input[type="email"] {
+	font-size: 14px;
+	color: black;
+	padding: 10px 10px;
+	width: 280px;
+	box-shadow: inset 0 1px 1px #DDD;
+	margin-top: 10px;
+}
+
+#login-modal fieldset input[type="submit"] {
+	padding: 12px 0;
+	width: 300px;
+	margin-top: 15px;
+	font-size: 14px;
+}
