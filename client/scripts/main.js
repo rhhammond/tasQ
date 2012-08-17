@@ -2,19 +2,19 @@
 require.config({
 
 	baseUrl: 'scripts',
-	
+
 	paths: {
 
 		// minified jQuery 1.7.2
 		jquery: 'lib/jquery-1.7.2.min',
-		
-		// require.js text plugin will read a file into a module parameter 
+
+		// require.js text plugin will read a file into a module parameter
 		// format: text!<file path relative to baseUrl>
 		text: 'lib/text',
 
 		// twitter bootstrap javascript
 		bootstrap: 'lib/bootstrap/js/bootstrap',
-		
+
 		// twitter bootstrap dropdown plugin
 		dropdown: 'lib/bootstrap/js/bootstrap-dropdown',
 
@@ -34,12 +34,12 @@ require.config({
 	// shim section specifies any dependencies that must be loaded before these modules can be loaded
 	// http://requirejs.org/docs/api.html#config-shim
 	shim: {
-		
+
 		bootstrap: {
 			deps: ['jquery'],
 			exports: 'Bootstrap'
 		},
-		
+
 		dropdown: {
 			deps: ['bootstrap'],
 			exports: 'BootstrapDropdown'
@@ -50,7 +50,7 @@ require.config({
 			exports: 'BootstrapModal'
 		},
 
-		backbone: { 
+		backbone: {
 			deps: ['underscore', 'jquery'],
 			exports: 'Backbone'
 		},
@@ -77,5 +77,5 @@ define([
 
 	var view = new LoginView();
 	view.render();
-	$('.dropdown-toggle').dropdown()
+	$('.dropdown-toggle').dropdown();
 });
