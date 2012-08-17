@@ -1,4 +1,4 @@
-// require.js configuration - http://requirejs.org/docs/api.html#config
+// require.js configuration http://requirejs.org/docs/api.html#config
 require.config({
 
 	baseUrl: 'scripts',
@@ -40,16 +40,6 @@ require.config({
 			exports: 'Bootstrap'
 		},
 
-		dropdown: {
-			deps: ['bootstrap'],
-			exports: 'BootstrapDropdown'
-		},
-
-		modal: {
-			deps: ['bootstrap'],
-			exports: 'BootstrapModal'
-		},
-
 		backbone: {
 			deps: ['underscore', 'jquery'],
 			exports: 'Backbone'
@@ -68,14 +58,11 @@ define([
 	'jquery',
 	'bootstrap',
 	'dropdown',
-	'modal',
 	'backbone',
-	'views/login'
+	'views/nav'
 
-], function($, bootstrap, dropdown, modal, backbone, LoginView) {
+], function($, bootstrap, dropdown, backbone, NavView) {
 	"use strict";
 
-	var view = new LoginView();
-	view.render();
-	$('.dropdown-toggle').dropdown();
+	new NavView().render();
 });
