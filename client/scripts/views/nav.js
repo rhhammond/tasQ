@@ -1,11 +1,20 @@
 define([
 	'jquery',
+	'../models/loginModel',
 	'text!../../templates/nav.html',
 	'text!../../templates/home.html'
-], function($, navHtml, homeHtml) {
+], function($, loginModel, navHtml, homeHtml) {
 	"use strict";
 
 	var NavView = Backbone.View.extend({
+
+		events: {
+			'click #login-btn' : 'login'
+		},
+
+		login: function() {
+			loginModel.login($("#id_username"), $("#id_password"));
+		},
 
 		render: function() {
 			this.$el.html(navHtml);
