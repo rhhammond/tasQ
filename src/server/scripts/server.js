@@ -2,6 +2,9 @@
 var express = require('express');
 var app = express();
 
+// @todo: organize express.js routes better
+// http://stackoverflow.com/questions/5055853/how-do-you-modularize-node-js-w-express
+
 app.get('/', function( req, res){
 
   "use strict";
