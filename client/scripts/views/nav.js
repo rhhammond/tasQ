@@ -1,6 +1,6 @@
 define([
 	'jquery',
-	'../models/loginModel',
+	'models/loginModel',
 	'text!../../templates/nav.html',
 	'text!../../templates/home.html'
 ], function($, loginModel, navHtml, homeHtml) {
@@ -9,7 +9,7 @@ define([
 	var NavView = Backbone.View.extend({
 
 		events: {
-			'click #login-btn' : 'login'
+			'click :submit' : 'login'
 		},
 
 		login: function() {

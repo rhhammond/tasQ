@@ -1,6 +1,6 @@
 define([
 	'jquery',
-	'settings'
+	'models/settings'
 ], function($, settings) {
 
 	"use strict";
@@ -21,11 +21,8 @@ define([
 					}
 				}
 			};
-
-			this.save({
-				username: username,
-				password: password
-			}, options);
+			//todo: use the username and password
+			this.save(null, options);
 		}
 	});
 
