@@ -2,6 +2,16 @@
 var express = require('express');
 var app = express();
 
+app.get('/', function( req, res){
+
+  "use strict";
+
+  var path = require("path").normalize(__dirname + '/../../client/index.html');
+  // res.write(path);
+  // res.end();
+  res.sendfile(path);
+});
+
 app.get('/Login', function (req, res) {
 
   "use strict";
