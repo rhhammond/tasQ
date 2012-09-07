@@ -1,6 +1,6 @@
 define([
-	'jquery',
-	'settings'
+	'jquery'
+	// 'settings'
 ], function($, settings) {
 
 	"use strict";
@@ -16,9 +16,9 @@ define([
 
 			var options = {
 				success: function(model, response) {
-					if(settings.rememberMe) {
-						// todo: save some auth information here
-					}
+					// if(settings.rememberMe) {
+					// 	// todo: save some auth information here
+					// }
 				}
 			};
 

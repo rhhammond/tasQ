@@ -1,9 +1,9 @@
 define([
 	'jquery',
-	'../models/loginModel',
+	// '../models/loginModel',
 	'text!../../templates/nav.html',
 	'text!../../templates/home.html'
-], function($, loginModel, navHtml, homeHtml) {
+], function($, navHtml, homeHtml) {
 	"use strict";
 
 	var NavView = Backbone.View.extend({
@@ -13,7 +13,7 @@ define([
 		},
 
 		login: function() {
-			loginModel.login($("#id_username"), $("#id_password"));
+			// loginModel.login($("#id_username"), $("#id_password"));
 		},
 
 		render: function() {
