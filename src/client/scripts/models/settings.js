@@ -59,6 +59,9 @@ define([], function() {
 			}
 
 			return this._data;
+		},
+		set: function(value) {
+			this._data = value;
 		}
 	});
 

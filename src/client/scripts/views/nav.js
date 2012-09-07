@@ -1,26 +1,27 @@
 define([
 	'jquery',
-	// '../models/loginModel',
+	'../models/loginModel',
 	'text!../../templates/nav.html',
 	'text!../../templates/home.html'
-], function($, navHtml, homeHtml) {
+], function($, loginModel, navHtml, homeHtml) {
+
 	"use strict";
 
 	var NavView = Backbone.View.extend({
 
 		events: {
-			'click #login-btn' : 'login'
+			'click :submit' : 'login'
 		},
 
 		login: function() {
-			// loginModel.login($("#id_username"), $("#id_password"));
+			var p = loginModel.login($("#id_username").val(), $("#id_password").val());
 		},
 
 		render: function() {
 			this.$el.html(navHtml);
 			$(document.body).append(this.$el);
 
-			//todo: only show homeHtml when user is not logged in
+			// @todo: only show homeHtml when user is not logged in
 			$(document.body).append(homeHtml);
 
 			return this;
