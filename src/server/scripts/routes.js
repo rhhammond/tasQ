@@ -1,6 +1,6 @@
 // This module hooks HTTP requests up to corresponding controller functions
 
-exports = function(app) {
+module.exports = function(app) {
 
 	"use strict";
 
