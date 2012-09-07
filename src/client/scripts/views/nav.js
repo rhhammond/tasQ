@@ -10,11 +10,18 @@ define([
 	var NavView = Backbone.View.extend({
 
 		events: {
-			'click :submit' : 'login'
+			'click :submit' : 'login',
+			'keydown #id_password' : 'checkReturnPressed'
 		},
 
 		login: function() {
 			var p = loginModel.login($("#id_username").val(), $("#id_password").val());
+		},
+
+		checkReturnPressed: function(e) {
+			if(e.keyCode === 13) {
+				this.login();
+			}
 		},
 
 		render: function() {
