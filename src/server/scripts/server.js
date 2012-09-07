@@ -1,4 +1,4 @@
-
+var path = require("path");
 var express = require('express');
 var app = express();
 
@@ -9,10 +9,18 @@ app.get('/', function( req, res){
 
   "use strict";
 
-  var path = require("path").normalize(__dirname + '/../../client/index.html');
-  // res.write(path);
-  // res.end();
-  res.sendfile(path);
+  var filepath = path.normalize(__dirname + '/../../client/index.html');
+  res.sendfile(filepath);
+
+});
+
+app.get(/\/[css\/.*|scripts\/.*|templates\/.*]/, function(req, res) {
+
+  "use strict";
+
+  var filepath = path.normalize(__dirname + '/../../client' + req.path);
+  res.sendfile(filepath);
+
 });
 
 app.get('/Login', function (req, res) {
