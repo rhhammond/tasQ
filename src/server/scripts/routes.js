@@ -13,6 +13,6 @@ module.exports = function(app) {
 	// Login / Authentication requests
 
 	var loginController = require('./controllers/login');
-	app.get('/Login', loginController.doLogin);
+	app.post('/Login', loginController.doLogin);
 
 };
