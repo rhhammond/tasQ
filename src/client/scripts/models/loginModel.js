@@ -22,7 +22,7 @@ define([
 			this.save({
 				username: username,
 				password: password
-			}, options);		
+			}, options);
 		}
 	});
 

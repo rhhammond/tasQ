@@ -10,7 +10,7 @@ define([
 	var NavView = Backbone.View.extend({
 
 		events: {
-			'click :submit' : 'login'
+			'click :submit' : 'login',
 			'keydown #id_password' : 'checkReturnPressed'
 		},
 
